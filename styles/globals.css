@@ -1,26 +1,40 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: "Gill Sans Nova";
+  src: url("../fonts/GillSans/GillSansNova-Medium.eot");
+  src: url("../fonts/GillSans/GillSansNova-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GillSans/GillSansNova-Medium.woff2") format("woff2"),
+    url("../fonts/GillSans/GillSansNova-Medium.woff") format("woff"),
+    url("../fonts/GillSans/GillSansNova-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Gill Sans Nova";
+  src: url("../fonts/GillSans/GillSansNova-Book.eot");
+  src: url("../fonts/GillSans/GillSansNova-Book.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GillSans/GillSansNova-Book.woff2") format("woff2"),
+    url("../fonts/GillSans/GillSansNova-Book.woff") format("woff"),
+    url("../fonts/GillSans/GillSansNova-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  background: #f2f2e9;
+  font-family: "Gill Sans Nova", sans-serif;
+}
+
+a {
+  color: #000;
 }
